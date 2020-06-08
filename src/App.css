@@ -1,0 +1,101 @@
+.Membership .membership-section .sec-title {
+    font-size: 20px ;
+    margin-bottom: 0;
+}
+
+body .Membership .membership-section .sec-title .sec-description {
+    font-size: 14px !important;
+}
+
+.Membership .membership-section {
+    margin-left: 5rem;
+}
+
+.linkedin-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.membership-section .video-section .video-container .video-player {
+
+}
+
+body .action-btn a{
+    text-decoration: auto;
+    color: white;
+}
+body .contentWrapper #membershipToken button:hover,
+body .action-btn:hover {
+    color: white;
+    background: #0b5ed7;
+    text-decoration: auto;
+}
+body .contentWrapper #membershipToken button a, 
+body .action-btn a:hover {
+    color: white;
+}
+
+/* body .contentWrapper #membershipToken button.btn-lg {
+    background-color: #051d42 !important;
+} */
+
+body .contentWrapper #membershipToken button.mint-btn {
+    background-color: #2b3ff2 !important;
+}
+
+body .contentWrapper #membershipToken button a {
+    color: white;
+    text-decoration: auto;
+}
+
+@media (min-width:992px) {
+    .ComingSoon .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}
+
+.membership-learnmore-btn:hover {
+    background: #0b5ed7 !important;
+}
+
+
+
+@media (max-width:420px) {
+    .flex-grow-1.navbar-brand {
+        width: 75%;
+    }
+
+    .membership-section.right-video {
+        margin: 0;
+        margin-top: 2rem;
+        /* margin-left: 0; */
+    }
+
+    .col-md-6.d-flex.flex-column.gap-5.pr-50 {
+        padding-right: 0;
+        margin: 0;
+        padding-left: 0;
+    }
+    .w-100 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .community-section .community-content .community-header h2, body .sec-title, body .sec-title-2 {
+        text-align: center;
+    }
+
+    .faq-section .faq-section-header h1 {
+        line-height: 50px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (min-width:390px) {
+    .ComingSoon .mt-5.justify-content-center.row {
+        margin-top:15rem !important;
+    }
+}

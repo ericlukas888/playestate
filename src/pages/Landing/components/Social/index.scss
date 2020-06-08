@@ -1,0 +1,21 @@
+.social-section {
+    background: rgba(0, 40, 253, 0.05);
+    border: 1px solid #0066FF;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 300px;
+    color: #FFFFFF;
+
+    h2 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 59px;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
